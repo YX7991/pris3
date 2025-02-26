@@ -1,0 +1,7 @@
+README.md
+setup.py
+pris3.egg-info/PKG-INFO
+pris3.egg-info/SOURCES.txt
+pris3.egg-info/dependency_links.txt
+pris3.egg-info/requires.txt
+pris3.egg-info/top_level.txt

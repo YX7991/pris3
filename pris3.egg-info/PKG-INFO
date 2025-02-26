@@ -1,0 +1,20 @@
+Metadata-Version: 2.2
+Name: pris3
+Version: 0.1
+Summary: Audio-Driven 3D Depth-Aware Talking-Face Video Editing
+Home-page: https://github.com/flzt11/TEST.git
+Author: YX7991
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: torch
+Requires-Dist: ffmpeg-python
+Dynamic: author
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
