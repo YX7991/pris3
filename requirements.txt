@@ -1,105 +1,138 @@
-absl-py==2.1.0
-addict==2.4.0
-antlr4-python3-runtime==4.9.3
-attrs==24.2.0
-audioread==3.0.1
-av==10.0.0
-certifi==2024.8.30
-cffi==1.17.1
-charset-normalizer==3.3.2
-chumpy==0.70
-cloudpickle==3.0.0
-contourpy==1.1.1
-cycler==0.12.1
-Cython==3.0.11
-decorator==4.4.2
-diffusers==0.29.2
-facenet-pytorch==2.5.0
-ffmpeg-python==0.2.0
-filelock==3.16.0
-flatbuffers==24.3.25
-fonttools==4.53.1
-fsspec==2024.9.0
-future==1.0.0
-huggingface-hub==0.24.7
-idna==3.8
-imageio==2.35.1
-imageio-ffmpeg==0.5.1
-importlib_metadata==8.5.0
-importlib_resources==6.4.5
-jedi==0.17.2
-joblib==1.4.2
-json-tricks==3.17.3
-kiwisolver==1.4.7
-kornia==0.7.3
-kornia_rs==0.1.5
-lazy_loader==0.4
-librosa==0.10.2.post1
-llvmlite==0.41.1
-markdown-it-py==3.0.0
-matplotlib==3.7.5
-mdurl==0.1.2
-mediapipe==0.9.3.0
-mmcv==2.0.1
-mmdet==3.1.0
-mmengine==0.10.4
-mmpose==1.1.0
-moviepy==1.0.3
-msgpack==1.1.0
-munkres==1.1.4
-networkx==3.1
-ninja==1.11.1.1
-numba==0.58.1
-numpy==1.24.4
-omegaconf==2.3.0
-opencv-python==3.4.9.33
-packaging==24.1
-parso==0.7.1
-pillow==10.4.0
-platformdirs==4.3.2
-pluggy==1.0.0
-pooch==1.8.2
-praat-parselmouth==0.4.4
-proglog==0.1.10
-protobuf==3.20.3
-pycocotools==2.0.7
-pycparser==2.22
-Pygments==2.18.0
-pyloudnorm==0.1.1
-pyparsing==3.1.4
-python-dateutil==2.9.0.post0
-python-jsonrpc-server==0.4.0
-python-language-server==0.36.2
-PyWavelets==1.4.1
-PyYAML==6.0.2
-regex==2024.9.11
-requests==2.32.3
-rich==13.8.1
-safetensors==0.4.5
-scikit-image==0.21.0
-scikit-learn==1.3.2
-scipy==1.9.3
-shapely==2.0.6
-six==1.16.0
-sounddevice==0.5.0
-soundfile==0.12.1
-soxr==0.3.7
-termcolor==2.4.0
-terminaltables==3.1.10
-threadpoolctl==3.5.0
-tifffile==2023.7.10
-tokenizers==0.19.1
-tomli==2.0.1
-torch==1.13.1
-torchaudio==0.13.1
-torchvision==0.14.1
-tqdm==4.66.5
-transformers==4.44.2
-trimesh==3.9.5
-typing_extensions==4.12.2
-ujson==5.7.0
-urllib3==2.2.2
-webrtcvad==2.0.10
-xtcocotools==1.14.3
-yapf==0.40.2
-zipp==3.20.1
+absl-py                  2.1.0
+accelerate               1.4.0
+addict                   2.4.0
+antlr4-python3-runtime   4.9.3
+attrs                    25.1.0
+audioread                3.0.1
+certifi                  2025.1.31
+cffi                     1.17.1
+charset-normalizer       3.4.1
+chumpy                   0.70
+contourpy                1.3.0
+cycler                   0.12.1
+Cython                   3.0.12
+decorator                5.2.0
+diffusers                0.32.2
+facenet-pytorch          2.5.0
+ffmpeg                   1.4
+ffmpeg-python            0.2.0
+filelock                 3.17.0
+flatbuffers              25.2.10
+fonttools                4.56.0
+fsspec                   2025.2.0
+future                   1.0.0
+huggingface-hub          0.29.1
+idna                     3.10
+imageio                  2.37.0
+imageio-ffmpeg           0.6.0
+importlib_metadata       8.6.1
+importlib_resources      6.5.2
+jax                      0.4.30
+jaxlib                   0.4.30
+Jinja2                   3.1.5
+joblib                   1.4.2
+json-tricks              3.17.3
+kiwisolver               1.4.7
+kornia                   0.8.0
+kornia_rs                0.1.8
+lazy_loader              0.4
+librosa                  0.10.2.post1
+llvmlite                 0.43.0
+markdown-it-py           3.0.0
+MarkupSafe               3.0.2
+matplotlib               3.9.4
+mdurl                    0.1.2
+mediapipe                0.10.11
+ml_dtypes                0.5.1
+mmcv                     2.1.0
+mmdet                    3.3.0
+mmengine                 0.10.6
+mmpose                   1.3.2
+moviepy                  2.1.2
+mpmath                   1.3.0
+msgpack                  1.1.0
+munkres                  1.1.4
+networkx                 3.2.1
+ninja                    1.11.1.3
+numba                    0.60.0
+numpy                    1.26.4
+nvdiffrast               0.3.3
+nvidia-cublas-cu11       11.11.3.6
+nvidia-cublas-cu12       12.1.3.1
+nvidia-cuda-cupti-cu11   11.8.87
+nvidia-cuda-cupti-cu12   12.1.105
+nvidia-cuda-nvrtc-cu11   11.8.89
+nvidia-cuda-nvrtc-cu12   12.1.105
+nvidia-cuda-runtime-cu11 11.8.89
+nvidia-cuda-runtime-cu12 12.1.105
+nvidia-cudnn-cu11        8.7.0.84
+nvidia-cudnn-cu12        8.9.2.26
+nvidia-cufft-cu11        10.9.0.58
+nvidia-cufft-cu12        11.0.2.54
+nvidia-curand-cu11       10.3.0.86
+nvidia-curand-cu12       10.3.2.106
+nvidia-cusolver-cu11     11.4.1.48
+nvidia-cusolver-cu12     11.4.5.107
+nvidia-cusparse-cu11     11.7.5.86
+nvidia-cusparse-cu12     12.1.0.106
+nvidia-cusparselt-cu12   0.6.2
+nvidia-nccl-cu11         2.19.3
+nvidia-nccl-cu12         2.18.1
+nvidia-nvjitlink-cu12    12.4.127
+nvidia-nvtx-cu11         11.8.86
+nvidia-nvtx-cu12         12.1.105
+omegaconf                2.3.0
+opencv-contrib-python    4.11.0.86
+opencv-python            4.11.0.86
+opt_einsum               3.4.0
+packaging                24.2
+pillow                   10.2.0
+pip                      25.0.1
+platformdirs             4.3.6
+pooch                    1.8.2
+praat-parselmouth        0.4.5
+proglog                  0.1.10
+protobuf                 3.20.3
+psutil                   7.0.0
+pycocotools              2.0.8
+pycparser                2.22
+Pygments                 2.19.1
+pyloudnorm               0.1.1
+pyparsing                3.2.1
+python-dateutil          2.9.0.post0
+python-dotenv            1.0.1
+PyYAML                   6.0.2
+regex                    2024.11.6
+requests                 2.32.3
+rich                     13.9.4
+safetensors              0.5.2
+scikit-image             0.24.0
+scikit-learn             1.6.1
+scipy                    1.13.1
+setuptools               75.8.0
+shapely                  2.0.7
+six                      1.17.0
+sounddevice              0.5.1
+soundfile                0.13.1
+soxr                     0.5.0.post1
+sympy                    1.13.1
+termcolor                2.5.0
+terminaltables           3.1.10
+threadpoolctl            3.5.0
+tifffile                 2024.8.30
+tokenizers               0.21.0
+tomli                    2.2.1
+torch                    2.1.0
+torchaudio               2.2.1+cu118
+torchvision              0.16.0
+tqdm                     4.67.1
+transformers             4.49.0
+trimesh                  4.6.3
+triton                   2.1.0
+typing_extensions        4.12.2
+urllib3                  2.3.0
+webrtcvad                2.0.10
+wheel                    0.45.1
+xtcocotools              1.14.3
+yapf                     0.43.0
+zipp                     3.21.0
